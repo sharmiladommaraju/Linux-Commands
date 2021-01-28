@@ -1,1 +1,30 @@
-
+uname -a
+uname -r
+ls
+ls -l
+ls -al
+ls -r
+ls -alh
+ls -F
+ls -m
+ls -Q
+date
+cal
+uptime
+hostname
+hostname -I
+last reboot
+mkdir
+mkdir -p
+touch
+vi
+cat
+cp
+mv
+cd
+rm
+rm -f
+rm -r
+rm -rf
+head
+tail
