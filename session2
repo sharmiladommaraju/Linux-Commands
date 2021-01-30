@@ -1,0 +1,20 @@
+pwd (present working directory)
+cd ~ (home directory)
+cd / (root directory)
+cd ..
+cd .
+ls -d */ (it will display all the directories)
+ls documents (it will display all the files in documents)
+grep -c (count)
+grep -l (list)
+grep -w (whole word)
+grep -i
+grep -o
+grep -n
+grep ^
+grep -v
+ps (display current running process status)
+ps -ef (display all the process on the system)
+ps -ef | grep processname (process information for processname)
+
+
