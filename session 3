@@ -1,0 +1,30 @@
+top
+top -u usrname
+ps
+
+lsof (list open files” to help you to find all the opened files)
+lsof -p
+lsof -p pid| wc -l
+lsof -p |grep log
+lsof -i -p | grep $PID
+
+pidstat -d (pidstat can be used to monitor tasks managed by the Linux kernel.)
+pidstat -p PID -d
+pidstat -p pid -d 5
+
+netstat -s ((Network Statistics) is a popular command to print network connections, interface statistics, and to troubleshoot various network-related issue.)
+netstat -s | grep error
+
+iostat -d (r input-output statistics is used to diagnose a performance issue with storage devices. You can monitor CPU, Device & Network file system utilization report with iostat)
+iostat -c
+
+free(memory)
+
+sar (System Activity Report) will be helpful to collect a number of a report including CPU, Memory, and device load)
+
+ipcs -q (interprocess communication system)
+ipcs -m
+ipcs -s
+ipcs -u
+
+uptime
